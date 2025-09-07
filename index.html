@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Calculator</h1>
+    <div class="main">
+        <div class="box"></div>
+        <button class="calbutton" onclick="
+        calculation='';
+        document.querySelector('.box').innerText = calculation;">C</button>
+        <button class="calbutton" onclick="
+        calculation+=1;
+        document.querySelector('.box').innerText = calculation;">1</button>
+        <button class="calbutton" onclick="
+        calculation+=2;
+        document.querySelector('.box').innerText = calculation;">2</button>
+        <button class="calbutton" onclick="
+        calculation+='+';
+        document.querySelector('.box').innerText = calculation;">+</button>
+        <button class="calbutton" onclick="
+        calculation+=3;
+        document.querySelector('.box').innerText = calculation;">3</button>
+        <button class="calbutton" onclick="
+        calculation+=4;
+        document.querySelector('.box').innerText = calculation;">4</button>
+        <button class="calbutton" onclick="
+        calculation+='-';
+        document.querySelector('.box').innerText = calculation;">-</button>
+        <button class="calbutton" onclick="
+        calculation+=5;
+        document.querySelector('.box').innerText = calculation;">5</button>
+        <button class="calbutton" onclick="
+        calculation+=6;
+        document.querySelector('.box').innerText = calculation;">6</button>
+        <button class="calbutton" onclick="
+        calculation+='*';
+        document.querySelector('.box').innerText = calculation;">*</button>
+        <button class="calbutton" onclick="
+        calculation+=7;
+        document.querySelector('.box').innerText = calculation;">7</button>
+        <button class="calbutton" onclick="
+        calculation+=8;
+        document.querySelector('.box').innerText = calculation;">8</button>
+        <button class="calbutton" onclick="
+        calculation+='/';
+        document.querySelector('.box').innerText = calculation;">/</button>
+        <button class="calbutton" onclick="
+        calculation=eval(calculation);
+        document.querySelector('.box').innerText=calculation;">=</button>
+        <button class="calbutton" onclick="
+        calculation+=9;
+        document.querySelector('.box').innerText = calculation;">9</button>
+        <button class="calbutton" onclick="
+        calculation+=0;
+        document.querySelector('.box').innerText = calculation;">0</button>
+        <button class="calbutton" onclick="
+        calculation+='.';
+        document.querySelector('.box').innerText = calculation;">.</button>
+    </div>
+<script>
+    let calculation= '';
+</script>
+</body>
+</html>
