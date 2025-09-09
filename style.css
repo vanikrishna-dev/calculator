@@ -33,7 +33,8 @@ h1 {
     font-size: 34px;
     text-align: right;
     overflow-x: scroll;
-    color: whitesmoke;
+    color: rgb(72, 5, 72);
+    font-weight: bold;
     background-color: rgba(245, 245, 245, 0.623);
 }
 
